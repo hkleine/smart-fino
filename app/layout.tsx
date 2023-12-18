@@ -2,7 +2,6 @@ import { PropsWithChildren } from 'react';
 import { Providers } from '../components/Providers';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
-import PopupWidget from '../components/popupWidget';
 
 import Head from 'next/head';
 import '../css/tailwind.css';
@@ -22,7 +21,6 @@ export default function RootLayout({ children }: PropsWithChildren) {
           <Navbar />
           {children}
           <Footer />
-          <PopupWidget />
         </Providers>
       </body>
     </html>
