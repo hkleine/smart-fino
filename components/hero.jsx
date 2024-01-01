@@ -31,7 +31,10 @@ const Hero = () => {
               >
                 Jetzt Kontakt aufnehmen
               </Link>
-              <Link href="#" className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
+              <Link
+                href="https://www.instagram.com/smart.fino/"
+                className="flex items-center space-x-2 text-gray-500 dark:text-gray-400"
+              >
                 <svg
                   role="img"
                   width="24"
@@ -101,7 +104,7 @@ function NuernbergerLogo() {
 
 function ErgoLogo() {
   return (
-    <svg id="svg336" version="1.1" width="110" height="30" viewBox="-0.68476518 -0.68476518 79.34030936 24.19503636">
+    <svg id="svg336" version="1.1" width="100" height="40" viewBox="-0.68476518 -0.68476518 79.34030936 24.19503636">
       <defs id="defs333" />
       <path
         id="path234"

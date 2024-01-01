@@ -4,8 +4,15 @@ import React from 'react';
 import Container from './container';
 
 export default function Footer() {
-  const navigation = ['Kindervorsorge', 'Vermögenswirksame Leistungen', 'Altersvorsorge'];
-  const legal = ['Datenschutzerklärung', 'Impressum'];
+  const navigation = [
+    { title: 'Kindervorsorge', href: '/kindervorsorge' },
+    { title: 'Vermögenwirksame Leistungen', href: '/vermoegenswirksame-leistungen' },
+    { title: 'Altersvorsorge', href: '/altersvorsorge' },
+  ];
+  const legal = [
+    { title: 'Datenschutzerklärung', href: '/' },
+    { title: 'Impressum', href: '/impressum' },
+  ];
   return (
     <div className="relative">
       <Container>
@@ -22,8 +29,8 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in arcu ac mi dictum rutrum et vel sem.
-              Fusce ipsum risus, consectetur id tellus in, auctor vehicula libero.
+              Deine Finanzen smart gedacht - Wir wissen, wie schwierig es sein kann, seine Versicherungen und Finanzen
+              zu verstehen - deshalb helfen wir dir dabei!
             </div>
           </div>
 
@@ -32,10 +39,10 @@ export default function Footer() {
               {navigation.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href={item.href}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
-                  {item}
+                  {item.title}
                 </Link>
               ))}
             </div>
@@ -45,10 +52,10 @@ export default function Footer() {
               {legal.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href={item.href}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
-                  {item}
+                  {item.title}
                 </Link>
               ))}
             </div>
@@ -60,7 +67,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
                 <Twitter />
               </a>
-              <a href="#" target="_blank" rel="noopener">
+              <a href="https://www.instagram.com/smart.fino/" target="_blank" rel="noopener">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>

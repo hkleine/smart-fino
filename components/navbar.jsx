@@ -9,8 +9,8 @@ import { usePathname } from 'next/navigation';
 const Navbar = () => {
   const navigation = [
     { title: 'Kindervorsorge', href: '/kindervorsorge' },
-    { title: 'Vermögenwirksame Leistungen', href: '/' },
-    { title: 'Altersvorsorge', href: '/' },
+    { title: 'Vermögenwirksame Leistungen', href: '/vermoegenswirksame-leistungen' },
+    { title: 'Altersvorsorge', href: '/altersvorsorge' },
   ];
 
   return (

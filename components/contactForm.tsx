@@ -91,7 +91,11 @@ export function ContactForm() {
                 </div>
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Büro</h2>
-                  <p className="text-gray-300">5555 Tailwind RD, Pleasant Grove, UT 73533</p>
+                  <p className="text-gray-300">
+                    Nils Olsen & Max Perzak <br />
+                    Bürgermeister-Smidt-Str.176 <br />
+                    27568 Bremerhaven
+                  </p>
                 </div>
               </div>
 
@@ -101,8 +105,7 @@ export function ContactForm() {
                 </div>
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Telefon</h2>
-                  <p className="text-gray-300">Tel: xxx-xxx-xxx</p>
-                  <p className="text-gray-300">Fax: xxx-xxx-xxx</p>
+                  <p className="text-gray-300">Telefonnummer: +49 (0) 160 99139530</p>
                 </div>
               </div>
             </div>
