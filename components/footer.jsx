@@ -63,18 +63,18 @@ export default function Footer() {
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a href="#" target="_blank" rel="noopener">
+              {/* <a href="#" target="_blank" rel="noopener">
                 <span className="sr-only">Twitter</span>
                 <Twitter />
-              </a>
+              </a> */}
               <a href="https://www.instagram.com/smart.fino/" target="_blank" rel="noopener">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="#" target="_blank" rel="noopener">
+              {/* <a href="#" target="_blank" rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

@@ -81,11 +81,10 @@ export function ContactForm() {
             <div className="flex flex-col text-gray-300">
               <h1 className="font-bold text-4xl my-4">Oder komm einfach vorbei</h1>
               <p className="text-gray-300">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt arcu diam, eu feugiat felis
-                fermentum id. Curabitur vitae nibh viverra, auctor turpis sed, scelerisque ex.
+                Wir beraten dich auch gerne persönlich in unserem Büro in der Altern Bürger.
               </p>
 
-              <div className="flex my-4 w-2/3 lg:w-1/2">
+              <div className="flex my-4">
                 <div className="flex flex-col">
                   <i className="fas fa-map-marker-alt pt-2 pr-2" />
                 </div>
@@ -105,7 +104,7 @@ export function ContactForm() {
                 </div>
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Telefon</h2>
-                  <p className="text-gray-300">Telefonnummer: +49 (0) 160 99139530</p>
+                  <p className="text-gray-300 whitespace-nowrap">Telefonnummer: +49 (0) 160 99139530</p>
                 </div>
               </div>
             </div>

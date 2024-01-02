@@ -2,7 +2,7 @@ import Container from 'components/container';
 import Cta from 'components/cta';
 import Image from 'next/image';
 
-export default function KindervorsorgePage() {
+export default async function KindervorsorgePage() {
   return (
     <Container>
       <div className="flex flex-row gap-10">
@@ -31,7 +31,7 @@ export default function KindervorsorgePage() {
             Zukunft unserer Kinder.
           </p>
         </div>
-        <div>
+        <div className="hidden xl:block">
           <Image
             src={'/img/max_perzak-10-web.jpg'}
             width="1200"

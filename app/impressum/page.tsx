@@ -1,6 +1,6 @@
 import Container from 'components/container';
 
-export default function KindervorsorgePage() {
+export default async function KindervorsorgePage() {
   return (
     <Container>
       <div className="flex flex-col w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">

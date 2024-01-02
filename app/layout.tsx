@@ -1,23 +1,29 @@
+import Head from 'next/head';
+import { Metadata } from 'next/types';
 import { PropsWithChildren } from 'react';
 import { Providers } from '../components/Providers';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
-
-import Head from 'next/head';
 import '../css/tailwind.css';
 
-export default function RootLayout({ children }: PropsWithChildren) {
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'smart.fino',
+    description: 'Dein Partner in Sachen Kindervorsorge, Vermögenswirksame Leistungen und Altersvorsorge',
+  };
+}
+
+export default async function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en">
+    <html lang="de">
       <head />
       <body>
         <Providers>
           <Head>
-            <title>Smart.fino</title>
-            <meta name="description" content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+            <title>smart.fino</title>
+            <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
             <link rel="icon" href="/favicon.ico" />
           </Head>
-
           <Navbar />
           {children}
           <Footer />
