@@ -14,22 +14,22 @@ import benefitTwoImg from '../public/img/benefit-two.png';
 
 const benefitOne = {
   title: 'Das Rundum Sorglos Paket',
-  desc: 'You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.',
+  desc: '',
   image: benefitOneImg,
   bullets: [
     {
       title: 'Kindervorsorge',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      desc: 'Für einen Führerschein, das erste Auto oder ein Studium. Spare früh für die Zukunft deiner Kinder.',
       icon: <AcademicCapIcon />,
     },
     {
       title: 'Vermögenwirksame Leistungen',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      desc: 'Mache dir alle Vorteile deines Arbeitgebers zu Nutze.',
       icon: <ChartBarSquareIcon />,
     },
     {
       title: 'Altersvorsorge',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      desc: 'Sichere dich fürs Alter ab damit du auch nach der Rente noch deinen Lebensstandard halten kannst.',
       icon: <HomeModernIcon />,
     },
   ],

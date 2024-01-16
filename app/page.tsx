@@ -10,13 +10,13 @@ export default async function HomePage() {
     <>
       <Hero />
       <SectionTitle pretitle="Unsere Schwerpunkte" title=" Unser Team sichert euch für alle Fälle ab">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in arcu ac mi dictum rutrum et vel sem. Fusce
-        ipsum risus, consectetur id tellus in, auctor vehicula libero.
+        Wir sind ein Team aus erfahrenen Versicherungs- und Finanzberatern - unser Ziel ist es dich in allen Lebenslagen
+        best möglich abzusichern.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <SectionTitle pretitle="Kontakt" title=" Sende uns eine Nachricht">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in arcu ac mi dictum rutrum et vel sem. Fusce
-        ipsum risus, consectetur id tellus in, auctor vehicula libero.
+        Hast du Fragen, Anregungen oder interessierst dich bereits für ein konkretes Finanzprodukt dann schreib uns
+        gerne eine Nachricht.
       </SectionTitle>
       <ContactForm />
     </>

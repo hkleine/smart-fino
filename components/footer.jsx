@@ -10,7 +10,7 @@ export default function Footer() {
     { title: 'Altersvorsorge', href: '/altersvorsorge' },
   ];
   const legal = [
-    { title: 'Datenschutzerklärung', href: '/' },
+    { title: 'Datenschutzerklärung', href: '/datenschutz-erklaerung' },
     { title: 'Impressum', href: '/impressum' },
   ];
   return (

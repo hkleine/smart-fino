@@ -21,7 +21,11 @@ export default async function RootLayout({ children }: PropsWithChildren) {
         <Providers>
           <Head>
             <title>smart.fino</title>
-            <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+            <meta
+              name="description"
+              content="Deine Finanzen smart gedacht - Wir wissen, wie schwierig es sein kann, seine Versicherungen und Finanzen
+              zu verstehen - deshalb helfen wir dir dabei!"
+            />
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <Navbar />
