@@ -12,6 +12,7 @@ export default async function Datenschutz() {
             Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen und nutzerfreundlichen
             Internetauftritts, inklusive seiner Inhalte und der dort angebotenen Leistungen, verarbeitet.
           </p>
+          <br />
           <p>
             Gemäß Art. 4 Ziffer 1. der Verordnung (EU) 2016/679, also der Datenschutz-Grundverordnung (nachfolgend nur
             „DSGVO“ genannt), gilt als „Verarbeitung“ jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführter
@@ -20,6 +21,7 @@ export default async function Datenschutz() {
             Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der
             Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.
           </p>
+          <br />
           <p>
             Mit der nachfolgenden Datenschutzerklärung informieren wir Sie insbesondere über Art, Umfang, Zweck, Dauer
             und Rechtsgrundlage der Verarbeitung personenbezogener Daten, soweit wir entweder allein oder gemeinsam mit
@@ -29,26 +31,26 @@ export default async function Datenschutz() {
           </p>
           <span className="flex flex-col">
             <p>Unsere Datenschutzerklärung ist wie folgt gegliedert:</p>
-            <p>I. Informationen über uns als Verantwortlich</p>
+            <p>I. Informationen über die Verantwortlichen</p>
             <p>II. Rechte der Nutzer und Betroffenen</p>
             <p>III. Informationen zur Datenverarbeitung</p>
           </span>
         </div>
-
+        <br />
         <div className="grid grid-cols-1 gap-6">
-          <h3 className="text-lg text-gray-900 font-semibold">I. Information über mich als Verantwortlichen</h3>
+          <h3 className="text-xl text-gray-900 font-bold">I. Information über die Verantwortlichen</h3>
           <span className="flex flex-col">
             <p>Nils Olsen & Max Perzak</p>
             <p>Bürgermeister-Smidt-Str. 176</p>
             <p>27568 Bremerhaven</p>
 
-            <p>E-Mail: EMAIL???</p>
+            <p>E-Mail: smart.fino.de@gmail.com</p>
             <p>Telefon: +49 (0) 160 99139530</p>
           </span>
         </div>
-
+        <br />
         <div className="grid grid-cols-1 gap-6">
-          <h3 className="text-lg text-gray-900 font-semibold">II. Rechte der Nutzer und Betroffenen</h3>
+          <h3 className="text-xl text-gray-900 font-bold">II. Rechte der Nutzer und Betroffenen</h3>
           <p>
             Mit Blick auf die nachfolgend noch näher beschriebene Datenverarbeitung haben die Nutzer und Betroffenen das
             Recht
@@ -76,6 +78,7 @@ export default async function Datenschutz() {
               auch Art. 77 DSGVO).
             </li>
           </ul>
+          <br />
           <p>
             Darüber hinaus ist der Anbieter dazu verpflichtet, alle Empfänger, denen gegenüber Daten durch den Anbieter
             offengelegt worden sind, über jedwede Berichtigung oder Löschung von Daten oder die Einschränkung der
@@ -83,15 +86,17 @@ export default async function Datenschutz() {
             besteht jedoch nicht, soweit diese Mitteilung unmöglich oder mit einem unverhältnismäßigen Aufwand verbunden
             ist. Unbeschadet dessen hat der Nutzer ein Recht auf Auskunft über diese Empfänger.
           </p>
-          <p className="font-semibold">
+          <br />
+          <p className="font-bold">
             Ebenfalls haben die Nutzer und Betroffenen nach Art. 21 DSGVO das Recht auf Widerspruch gegen die künftige
             Verarbeitung der sie betreffenden Daten, sofern die Daten durch den Anbieter nach Maßgabe von Art. 6 Abs. 1
             lit. f) DSGVO verarbeitet werden. Insbesondere ist ein Widerspruch gegen die Datenverarbeitung zum Zwecke
             der Direktwerbung statthaft.
           </p>
         </div>
+        <br />
         <div className="grid grid-cols-1 gap-6">
-          <h3 className="text-lg text-gray-900 font-semibold">III. Informationen zur Datenverarbeitung</h3>
+          <h3 className="text-lg text-gray-900 font-bold">III. Informationen zur Datenverarbeitung</h3>
           <div className="grid grid-cols-1 gap-2">
             <p>
               Ihre bei Nutzung unseres Internetauftritts verarbeiteten Daten werden gelöscht oder gesperrt, sobald der
@@ -99,7 +104,8 @@ export default async function Datenschutz() {
               entgegenstehen und nachfolgend keine anderslautenden Angaben zu einzelnen Verarbeitungsverfahren gemacht
               werden.
             </p>
-            <h4 className="text-gray-900 font-semibold">Kontaktanfragen / Kontaktmöglichkeit</h4>
+            <br />
+            <h4 className="text-gray-900 font-bold">Kontaktanfragen / Kontaktmöglichkeit</h4>
             <p>
               Sofern Sie per Kontaktformular oder E-Mail mit uns in Kontakt treten, werden die dabei von Ihnen
               angegebenen Daten zur Bearbeitung Ihrer Anfrage genutzt. Die Angabe der Daten ist zur Bearbeitung und
@@ -113,9 +119,9 @@ export default async function Datenschutz() {
               Vertragsabwicklung.
             </p>
           </div>
-
+          <br />
           <div className="grid grid-cols-1 gap-2">
-            <h4 className="text-gray-900 font-semibold">LinkedIn</h4>
+            <h4 className="text-gray-900 font-bold">LinkedIn</h4>
             <p>
               Wir unterhalten bei LinkedIn eine Onlinepräsenz um unser Unternehmen sowie unsere Leistungen zu
               präsentieren und mit Kunden/Interessenten zu kommunizieren. LinkedIn ist ein Service der LinkedIn Ireland
@@ -135,8 +141,9 @@ export default async function Datenschutz() {
             </Link>
           </div>
 
+          <br />
           <div className="grid grid-cols-1 gap-2">
-            <h4 className="text-gray-900 font-semibold">Instagram</h4>
+            <h4 className="text-gray-900 font-bold">Instagram</h4>
             <p>
               Zur Bewerbung unserer Produkte und Leistungen sowie zur Kommunikation mit Interessenten oder Kunden
               betreiben wir eine Firmenpräsenz auf der Plattform Instagram.
@@ -201,8 +208,10 @@ export default async function Datenschutz() {
               Inc., 1601 Willow Road, Menlo Park, California 94025 in den USA erfolgt.
             </p>
           </div>
+
+          <br />
           <div className="grid grid-cols-1 gap-2">
-            <h4 className="text-gray-900 font-semibold">Verlinkung Social-Media über Grafik oder Textlink</h4>
+            <h4 className="text-gray-900 font-bold">Verlinkung Social-Media über Grafik oder Textlink</h4>
             <p>
               Wir bewerben auf unserer Webseite auch Präsenzen auf den nachstehend aufgeführten sozialen Netzwerken. Die
               Einbindung erfolgt dabei über eine verlinkte Grafik des jeweiligen Netzwerks. Durch den Einsatz dieser
@@ -230,8 +239,9 @@ export default async function Datenschutz() {
             <Link href="https://www.linkedin.com/legal/privacy-policy">LinkedIn</Link>
             <Link href="https://help.instagram.com/519522125107875">Instagram</Link>
           </div>
+          <br />
           <div className="grid grid-cols-1 gap-2">
-            <h4 className="text-gray-900 font-semibold">Google Analytics</h4>
+            <h4 className="text-gray-900 font-bold">Google Analytics</h4>
             <p>
               In unserem Internetauftritt setzen wir Google Analytics ein. Hierbei handelt es sich um einen
               Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, nachfolgend
@@ -277,8 +287,9 @@ export default async function Datenschutz() {
             </p>
           </div>
 
+          <br />
           <div className="grid grid-cols-1 gap-2">
-            <h4 className="text-gray-900 font-semibold">Google reCAPTCHA</h4>
+            <h4 className="text-gray-900 font-bold">Google reCAPTCHA</h4>
             <p>
               In unserem Internetauftritt setzen wir Google reCAPTCHA zur Überprüfung und Vermeidung von Interaktionen
               auf unserer Internetseite durch automatisierte Zugriffe, bspw. durch sog. Bots, ein. Es handelt sich

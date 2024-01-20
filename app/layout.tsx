@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="de">
+    <html lang="de" className="dark">
       <head />
       <body>
         <Providers>
